@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@400;500&display=swap');
+@font-face {
+	font-family: "Inclusive Sans";
+}
+
+* {
+	box-sizing: border-box;
+	font-weight: lighter;
+}
+
+body {
+	font-family: 'Inclusive Sans', 'Roboto', sans-serif;
+	background-color: #dddddd;
+}
+
+h1.cal {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 50px 10px 8px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	content: "";
+    clear: both;
+	display: table;
+}   
+
+.wrap {
+	position: relative;
+	width: 360px;
+	margin: auto;
+}
+
+.display input {
+	font-size: 2.8rem;
+	padding: 10px;
+	width: 360px;
+	height: 75px;
+	color: white;
+	text-align: right;
+	border: 0.3px solid rgba(0,0,0,.15);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: black;
+}
+
+.buttons {
+	position: absolute;
+}
+
+.row {
+	 clear:both;
+	 height: auto;
+}
+
+.row.button:first-child {
+	margin-left: 0px;
+}
+
+.button {
+	font-family: 'Inclusive Sans', 'Roboto', sans-serif;
+	border: 0.5px solid rgba(0,0,0,.15);
+	color: white;
+	background-color: #7F7F7F;
+	font-size: 2rem;
+	float:left;
+	margin: 0;
+	width: 90px;
+	height: 55px;
+}
+
+.button.func {
+	background-color: #ff8c00;
+}
+
+.button.num.zero {
+	width: 180px;
+	border-bottom-left-radius: 8px;
+}
+
+.button.func.equal {
+	position: absolute;
+	height: 110px;
+	border-bottom-right-radius: 8px;
+}
+
+.button.func:hover {
+	background-color: #BF680C;
+}
+
+.button.num:hover {
+	background-color: #525252;
+} 
+
+.button.misc:hover {
+	background-color: #525252;
+}
